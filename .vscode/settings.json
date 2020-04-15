@@ -1,0 +1,19 @@
+{
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.autoIndent": "full",
+    "editor.codeLens": true,
+    "editor.detectIndentation": false,
+    "editor.rulers": [100],
+    "files.eol": "\n",
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "editor.formatOnSave": false,
+    "eslint.validate": [
+      "typescript"
+    ]
+}
