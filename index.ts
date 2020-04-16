@@ -92,9 +92,8 @@ export default function clip(
   height: number,
   targetPixiColor: RGBAColorType,
   colorDistance: number,
-  backgroundColor: RGBColorType = { r: 255, g: 255, b: 255 },
-  type?: string
-): string {
+  backgroundColor: RGBColorType = { r: 255, g: 255, b: 255 }
+): HTMLCanvasElement {
   const canvas = document.createElement('canvas')
   canvas.width = width
   canvas.height = height
@@ -129,5 +128,5 @@ export default function clip(
 
   ctx.putImageData(imgData, 0, 0)
 
-  return canvas.toDataURL(type)
+  return canvas
 }

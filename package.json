@@ -3,16 +3,35 @@
   "version": "1.0.0",
   "description": "使用canvas抠除像素点",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "mocha -r ts-node/register -r jsdom-global/register index.spec.ts"
+    "test": "mocha -r ts-node/register -r jsdom-global/register index.spec.ts",
+    "build": "tsc"
   },
-  "author": "",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geeeger/canvas-clip.git"
+  },
+  "keywords": [
+    "canvas",
+    "canvas-clip"
+  ],
+  "bugs": {
+    "url": "https://github.com/geeeger/canvas-clip/issues"
+  },
+  "homepage": "https://github.com/geeeger/canvas-clipr#readme",
+  "author": "geeeger <lph1988520@sina.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
     "@typescript-eslint/eslint-plugin": "^2.28.0",
     "@typescript-eslint/parser": "^2.28.0",
+    "canvas": "^2.6.1",
     "chai": "^4.2.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
