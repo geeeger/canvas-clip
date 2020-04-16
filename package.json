@@ -20,6 +20,10 @@
     "canvas",
     "canvas-clip"
   ],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "bugs": {
     "url": "https://github.com/geeeger/canvas-clip/issues"
   },
