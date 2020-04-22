@@ -1,6 +1,6 @@
 {
   "name": "@geeeger/canvas-clip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "使用canvas抠除像素点",
   "main": "index.js",
   "types": "index.d.ts",
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/geeeger/canvas-clip/issues"
   },
-  "homepage": "https://github.com/geeeger/canvas-clipr#readme",
+  "homepage": "https://github.com/geeeger/canvas-clip#readme",
   "author": "geeeger <lph1988520@sina.com>",
   "license": "MIT",
   "devDependencies": {
